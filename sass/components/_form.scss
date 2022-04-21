@@ -114,13 +114,13 @@
     content: '';
     width: 16px;
     height: 15px;
-    background-image: url(/image/rectangle.svg);
+    background-image: url(./image/rectangle.svg);
     cursor: pointer;
     margin-right: 9px;
     margin-left: 12px;
 
     .checkbox-wrapper__form-checkbox:checked+& {
-        background-image: url(/image/check.svg);
+        background-image: url(./image/check.svg);
         background-size: contain;
         background-repeat: no-repeat;
         border-radius: 2px;
