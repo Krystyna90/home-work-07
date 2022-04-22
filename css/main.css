@@ -331,14 +331,14 @@ button {
   content: '';
   width: 16px;
   height: 15px;
-  background-image: url(/css/image/rectangle.svg);
+  background-image: url(../css/image/rectangle.svg);
   cursor: pointer;
   margin-right: 9px;
   margin-left: 12px;
 }
 
 .checkbox-wrapper__form-checkbox:checked + .checkbox-label::before {
-  background-image: url(/css/image/check.svg);
+  background-image: url(../css/image/check.svg);
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2px;
@@ -477,7 +477,7 @@ button {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../css/image/heroPic.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../css/image/heroPic.png);
   background-size: cover;
   background-color: #c4c4c4;
   padding-top: 200px;
